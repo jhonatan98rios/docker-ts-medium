@@ -5,8 +5,7 @@
     "main": "dist/server.js",
     "scripts": {
         "dev": "ts-node-dev --poll src/server.ts",
-        "build": "tsc",
-        "start": "node dist/server.js"
+        "build": "tsc"
     },
     "dependencies": {
         "express": "^4.21.2"
